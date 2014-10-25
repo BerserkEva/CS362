@@ -42,7 +42,7 @@ namespace WindowsFormsApplication1
             controller.TabPages.Add(tabPage2);
             controller.TabPages.Add(tabPage3);
             controller.TabPages.Add(tabPage4);
-            controller.TabPages.Add(tabPage5);
+            //controller.TabPages.Add(tabPage5);
 
             controller.Size = this.Size;
             
@@ -58,16 +58,16 @@ namespace WindowsFormsApplication1
             tabPage5.Controls.Add(new Button());
 
             tabPage1.Text = "Profile";
-            tabPage2.Text = "Quest";
-            tabPage3.Text = "Fun";
-            tabPage4.Text = "Post";
-            tabPage5.Text = "Log Out";
+            tabPage2.Text = "DARE!!";
+            //tabPage3.Text = "Fun";
+            tabPage3.Text = "Feed";
+            tabPage4.Text = "Log Out";
 
             tabPage1.Size = new Size(500, 250);
             tabPage2.Size = new Size(250, 250);
             tabPage3.Size = new Size(250, 250);
             tabPage4.Size = new Size(250, 250);
-            tabPage5.Size = new Size(250, 250);
+           // tabPage5.Size = new Size(250, 250);
 
 
             this.Controls.Add(controller);

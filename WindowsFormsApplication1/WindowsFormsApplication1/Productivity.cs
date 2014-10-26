@@ -22,6 +22,8 @@ namespace WindowsFormsApplication1
             TabPage tabPage4 = new TabPage();
             TabPage tabPage5 = new TabPage();
 
+            TextBox dareText = new TextBox();
+
             textBox1 = new TextBox();
             Timer countdown = new Timer();
             label1 = new Label();
@@ -44,18 +46,24 @@ namespace WindowsFormsApplication1
             controller.TabPages.Add(tabPage4);
             //controller.TabPages.Add(tabPage5);
 
+            //controller.SelectedIndexChanged +=new System.EventHandler(controller_SelectedIndexChanged);
+
             controller.Size = this.Size;
-            
+
             tabPage1.Controls.Add(button1);
             tabPage1.Controls.Add(button2);
             tabPage1.Controls.Add(button3);
             tabPage1.Controls.Add(label1);
             tabPage1.Controls.Add(textBox1);
 
+            tabPage2.Controls.Add(dareText);
+
+
             tabPage2.Controls.Add(new Button());
             tabPage3.Controls.Add(new Button());
-            tabPage4.Controls.Add(new Button());
-            tabPage5.Controls.Add(new Button());
+            //tabPage4.Controls.Add(new Button());
+            //tabPage5.Controls.Add(new Button());
+            tabPage4.Enabled = false;
 
             tabPage1.Text = "Profile";
             tabPage2.Text = "DARE!!";
@@ -68,6 +76,9 @@ namespace WindowsFormsApplication1
             tabPage3.Size = new Size(250, 250);
             tabPage4.Size = new Size(250, 250);
            // tabPage5.Size = new Size(250, 250);
+
+           // dareText.Location.X = new Point(500);
+            dareText.Size = new Size(500, 500);
 
 
             this.Controls.Add(controller);

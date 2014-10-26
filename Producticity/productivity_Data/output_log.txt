@@ -1,0 +1,50 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M      (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\William\Documents\GitHub\CS362\Producticity\productivity_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\William\Documents\GitHub\CS362\Producticity\productivity_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\William\Documents\GitHub\CS362\Producticity\productivity_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\William\Documents\GitHub\CS362\Producticity\productivity_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.239 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Clicked the button to go to feed
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.748018 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 96.
+Total: 1.849107 ms (FindLiveObjects: 0.016011 ms CreateObjectMapping: 0.018885 ms MarkObjects: 0.230727 ms  DeleteObjects: 0.008621 ms)
+
+Clicked the button to go to dares
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.614590 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 96.
+Total: 1.718142 ms (FindLiveObjects: 0.014779 ms CreateObjectMapping: 0.018885 ms MarkObjects: 0.207737 ms  DeleteObjects: 0.006979 ms)
+
+Clicked the button to edit
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.588314 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 96.
+Total: 1.688172 ms (FindLiveObjects: 0.016421 ms CreateObjectMapping: 0.019295 ms MarkObjects: 0.214305 ms  DeleteObjects: 0.006568 ms)
+
+Clicked the button to logout
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

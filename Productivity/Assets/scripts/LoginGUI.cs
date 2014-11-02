@@ -3,8 +3,8 @@ using System.Collections;
 
 public class LoginGUI : MonoBehaviour {
 
-	private string LoginString = "yoyo";
-	private string password = "yoyo";
+	private string LoginString = "";
+	private string password = "";
 	public GUIStyle textFieldStyle = new GUIStyle ();
 
 	private bool show = true;

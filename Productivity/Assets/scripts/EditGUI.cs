@@ -3,7 +3,9 @@ using System.Collections;
 
 public class EditGUI : MonoBehaviour {
 
-	
+	private string changePassword = "";
+	private string changeName = "";
+	private string changePicture = "";
 	void OnGUI() {
 		
 		AutoResize (1024, 786);
@@ -32,6 +34,15 @@ public class EditGUI : MonoBehaviour {
 			Debug.Log ("Clicked the button to logout");
 			Application.Quit();
 		}
+
+		GUI.Label (new Rect (200, 200, 100, 50), "Change name: ");
+		changeName = GUI.TextField (new Rect (325, 200, 300, 50), changeName);
+
+		GUI.Label (new Rect (200, 400, 200, 50), "Change password: ");
+		changePassword = GUI.TextField (new Rect (325, 400, 300, 50), changePassword);
+
+		GUI.Label (new Rect (200, 600, 200, 50), "Change picture: "); 
+		changePicture = GUI.TextField (new Rect (325, 600, 300, 50), changePicture);
 	}
 	
 	public static void AutoResize(int screenWidth, int screenHeight)

@@ -51,16 +51,19 @@ public class DareGUI : MonoBehaviour {
 				
 			if(GUI.Button (new Rect (100, 150, 225, 150), "Dare 1"))
 			{
+				Debug.Log("Dare 1 chosen");
 				submit = true;
 				chosen = false;
 			}
 			if(GUI.Button (new Rect (400, 150, 225, 150), "Dare 2"))
 			{
+				Debug.Log("Dare 2 chosen");
 				submit = true;
 				chosen = false;
 			}
 			if(GUI.Button (new Rect (700, 150, 225, 150), "Dare 3"))
 			{
+				Debug.Log("Dare 3 chosen");
 				submit = true;
 				chosen = false;
 			}

@@ -1,12 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\LoginGUI.cs">
     <Files>
       <File FileName="Assets\scripts\FeedGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\ProfileGUI.cs" Line="12" Column="79" />
-      <File FileName="Assets\scripts\DareGUI.cs" Line="16" Column="52" />
-      <File FileName="Assets\scripts\EditGUI.cs" Line="25" Column="4" />
-      <File FileName="Assets\scripts\LoginGUI.cs" Line="51" Column="21" />
+      <File FileName="Assets\scripts\ProfileGUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\DareGUI.cs" Line="60" Column="22" />
+      <File FileName="Assets\scripts\EditGUI.cs" Line="56" Column="37" />
+      <File FileName="Assets\scripts\LoginGUI.cs" Line="39" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

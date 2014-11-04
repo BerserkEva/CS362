@@ -8,6 +8,7 @@ public class LoginGUI : MonoBehaviour {
 	public GUIStyle textFieldStyle = new GUIStyle ();
 
 	private bool show = true;
+	private bool create = false;
 	private bool userHasHitReturn = false;
 
 	void OnGUI()
@@ -25,22 +26,21 @@ public class LoginGUI : MonoBehaviour {
 		if (show) 
 		{
 
-			if (GUI.Button (new Rect (400, 400, 300, 100), "Login")) 
+			if (GUI.Button (new Rect (350, 300, 300, 100), "Login")) 
 			{
-				//Destroy(GUI.Button);
-				//GUI.TextField(new Rect (450, 450, 100, 200), LoginString);
-
-
-				//Application.LoadLevel("Profile");
-
-/*				if(e.KeyCode == KeyCode.Return)
-				{
-					userHasHitReturn = true;
-				}*/
 				Debug.Log ("Clicked the button to login");
 				show = false;
 			}
+
+			if (GUI.Button (new Rect (350, 500, 300, 100), "Create Account")) 
+			{
+				Debug.Log ("Create an account");
+				show = false;
+				Application.LoadLevel("Create");
+			}
 		}
+
+
 
 		if (!show) 
 		{

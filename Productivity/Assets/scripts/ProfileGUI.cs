@@ -8,8 +8,9 @@ public class ProfileGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
+		GUI.TextArea (new Rect (200, 75, 75, 50), "Name: ");
 
-		LoginString = GUI.TextField (new Rect(200, 200, 200, 100), LoginString, 30);
+		//LoginString = GUI.TextField (new Rect(200, 200, 200, 100), LoginString, 30);
 
 		GUIStyle textFieldStyle = new GUIStyle ();
 

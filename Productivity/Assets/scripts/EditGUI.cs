@@ -4,8 +4,11 @@ using System.Collections;
 public class EditGUI : MonoBehaviour {
 
 	private string changePassword = "";
-	private string changeName = "";
+	private string changeFirstName = "";
+	private string changeLastName = "";
 	private string changePicture = "";
+	private string changeEmail = "";
+
 	void OnGUI() {
 		
 		AutoResize (1024, 786);
@@ -35,14 +38,23 @@ public class EditGUI : MonoBehaviour {
 			Application.Quit();
 		}
 
-		GUI.Label (new Rect (200, 200, 100, 50), "Change name: ");
-		changeName = GUI.TextField (new Rect (325, 200, 300, 50), changeName);
+		GUI.Label (new Rect (200, 200, 100, 50), "Change first name: ");
+		changeFirstName = GUI.TextField (new Rect (325, 200, 300, 50), changeFirstName);
+
+		GUI.Label (new Rect (200, 300, 100, 50), "Change last name: ");
+		changeLastName = GUI.TextField (new Rect (325, 300, 300, 50), changeLastName);
 
 		GUI.Label (new Rect (200, 400, 200, 50), "Change password: ");
-		changePassword = GUI.TextField (new Rect (325, 400, 300, 50), changePassword);
+		changeEmail = GUI.TextField (new Rect (325, 400, 300, 50), changeEmail);
+
+		GUI.Label (new Rect (200, 500, 200, 50), "Change email: ");
+		changePassword = GUI.TextField (new Rect (325, 500, 300, 50), changePassword);
 
 		GUI.Label (new Rect (200, 600, 200, 50), "Change picture: "); 
 		changePicture = GUI.TextField (new Rect (325, 600, 300, 50), changePicture);
+
+		if (GUI.Button (new Rect (650, 675, 150, 75), "Save"))
+						Debug.Log ("Saved information");	
 	}
 	
 	public static void AutoResize(int screenWidth, int screenHeight)

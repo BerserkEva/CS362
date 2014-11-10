@@ -13,6 +13,8 @@ public class LoginGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
+		GUI.backgroundColor =  Color.black;
+		GUI.contentColor = Color.yellow;
 		Event e = Event.current;
 		AutoResize (1024, 786);
 		GUI.Button (new Rect (0, 0, 215, 50), "Profile");
@@ -35,7 +37,7 @@ public class LoginGUI : MonoBehaviour {
 			if (GUI.Button (new Rect (350, 500, 300, 100), "Create Account")) 
 			{
 				Debug.Log ("Create an account");
-				show = false;
+				//show = false;
 				Application.LoadLevel("Create");
 			}
 		}

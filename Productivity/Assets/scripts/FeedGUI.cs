@@ -3,10 +3,11 @@ using System.Collections;
 
 public class FeedGUI : MonoBehaviour {
 
-
+	public GameObject plane;
 	public GUIText Score;
 	public GUIText dare;
-	
+
+	//GUISkin menuSkin = new GUISkin();
 	private int score;
 	private int dareSkip;
 
@@ -34,6 +35,8 @@ public class FeedGUI : MonoBehaviour {
 
 		UpdateScore ();
 		UpdateDare ();
+
+
 	}
 
 	void FixedUpdate()
@@ -42,8 +45,11 @@ public class FeedGUI : MonoBehaviour {
 		dareNumber = Random.Range(0, length);
 	}
 	
-	void OnGUI() {
-		
+	void OnGUI() 
+	{
+		//GUI.skin = menuSkin;
+		GUI.backgroundColor =  Color.black;
+		GUI.contentColor = Color.yellow;;
 		AutoResize (1024, 786);
 		if (GUI.Button (new Rect (0, 0, 215, 50), "Profile"))
 		{

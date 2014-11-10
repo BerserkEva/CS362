@@ -8,11 +8,21 @@ public class ProfileGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
-		GUI.TextArea (new Rect (200, 75, 75, 50), "Name: ");
+		//Texture pic = Google-tshirt_thumbnail.jpeg;
+		WWW www = new WWW ("file://C:/Users/Billy/Documents/CS362/Productivity/Assets/Google-tshirt_thumbnail");
+		//renderer.material.mainTexture = www.texture;
+		GUI.backgroundColor =  Color.black;
+		GUI.contentColor = Color.yellow;
+		GUI.TextArea (new Rect (210, 60, 75, 50), "Name: ");
+		
+		//var texture = "Google-tshirt_thumbnail.jpeg";
+		//GUITexture.texture = texture;
 
 		//LoginString = GUI.TextField (new Rect(200, 200, 200, 100), LoginString, 30);
 
 		GUIStyle textFieldStyle = new GUIStyle ();
+
+		GUI.DrawTexture (new Rect (0, 45, 200, 200), renderer.material.mainTexture = www.texture);
 
 		AutoResize (1024, 786);
 		GUI.Button (new Rect (0, 0, 215, 50), "Profile");
@@ -47,6 +57,8 @@ public class ProfileGUI : MonoBehaviour {
 			Debug.Log ("Clicked the button to logout");
 			Application.Quit();
 		}
+
+
 
 	}
 

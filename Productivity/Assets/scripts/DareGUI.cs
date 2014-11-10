@@ -8,13 +8,25 @@ public class DareGUI : MonoBehaviour {
 
 	public GUIStyle myGUIStyle;
 
-	private string caption = "";
+	private string caption;
 
-	private bool submit = false;
-	private bool chosen = true;
+	private bool submit;
+	private bool chosen;
 
-	void OnGUI() {
-		
+	void Start()
+	{
+		chosen = true;
+		submit = false;
+		caption = "";
+		dareTime.color = Color.yellow;
+		currentDare.color = Color.yellow;
+	}
+
+	void OnGUI() 
+	{
+		GUI.backgroundColor =  Color.black;
+		GUI.contentColor = Color.yellow;
+
 		AutoResize (1024, 786);
 		if (GUI.Button (new Rect (0, 0, 215, 50), "Profile"))
 		{

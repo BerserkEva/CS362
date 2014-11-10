@@ -9,8 +9,10 @@ public class EditGUI : MonoBehaviour {
 	private string changePicture = "";
 	private string changeEmail = "";
 
-	void OnGUI() {
-		
+	void OnGUI() 
+	{
+		GUI.backgroundColor =  Color.black;
+		GUI.contentColor = Color.yellow;
 		AutoResize (1024, 786);
 		if (GUI.Button (new Rect (0, 0, 215, 50), "Profile"))
 		{

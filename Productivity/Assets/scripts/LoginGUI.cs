@@ -8,7 +8,7 @@ public class LoginGUI : MonoBehaviour {
 	public GUIStyle textFieldStyle = new GUIStyle ();
 
 	private bool show = true;
-	private bool create = false;
+//	private bool create = false;
 	private bool userHasHitReturn = false;
 
 	void OnGUI()

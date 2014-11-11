@@ -13,7 +13,7 @@ public class ProfileGUI : MonoBehaviour {
 		//renderer.material.mainTexture = www.texture;
 		GUI.backgroundColor =  Color.black;
 		GUI.contentColor = Color.yellow;
-		GUI.TextArea (new Rect (210, 60, 75, 50), "Name: ");
+		GUI.TextArea (new Rect (410, 75, 150, 50), "Name: ");
 		
 		//var texture = "Google-tshirt_thumbnail.jpeg";
 		//GUITexture.texture = texture;
@@ -22,7 +22,7 @@ public class ProfileGUI : MonoBehaviour {
 
 		GUIStyle textFieldStyle = new GUIStyle ();
 
-		GUI.DrawTexture (new Rect (0, 45, 200, 200), renderer.material.mainTexture = www.texture);
+		GUI.DrawTexture (new Rect (0, 75, 400, 400), renderer.material.mainTexture = www.texture);
 
 		AutoResize (1024, 786);
 		GUI.Button (new Rect (0, 0, 215, 50), "Profile");
